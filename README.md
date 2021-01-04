@@ -1,7 +1,7 @@
 # EDC-PDF-Truncator
 Internal Mac app using AppleScript and the 'Skim' app to process downloaded PDFs and move them to a server path.
 
-Droplet type app, can be called by Firefox or user can manually 'drop' multiple files onto the app icon
+Droplet style app, can be called by Firefox or user can manually 'drop' multiple files onto the app icon
 
 This app handles two things:
 
@@ -9,7 +9,7 @@ This app handles two things:
 
    2. It moves the renamed PDF to the server path.
 
-I use a free app 'Skim' to convert the PDF into text and find the listed pickup time. No usee input is needed, everything is done below.
+I use a free app 'Skim' to convert the PDF into text and find the listed pickup time. No user input is needed. The Skim step can be skipped, but using Skim allows us to sort files by name so they appear chornologically. Otherwise, PDFs are sorted randomally by CK #.
 
 Script is below:
 
